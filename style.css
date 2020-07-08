@@ -1,1 +1,136 @@
-        
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.banner-text{
+    padding: 40px 20px;
+
+}
+.container{
+    margin-bottom: 50px;
+}
+.button{
+    background-color:  #21B573;
+    border: none;
+    border-radius: 20px;
+    /* width:100px;
+    height: 30px; */
+    padding: 6px 20px;
+    color: white;
+
+}
+.banner-text-1{
+    color:#FD511A;
+}
+.banner-text-2{
+ color: #21B573;
+}
+.banner-text h1{
+    font-weight: bold;
+}
+.navbar{
+    background-color:#F0FFF0 ;
+}
+.banner{
+    background-color: #F0FFF0;
+}
+.upper-body{
+    background-color: #F0FFF0 ;
+    margin:0px;
+    width: 100%;
+}
+.icone-image{
+    width: 120px;
+    height: 120px;
+    padding: 20px 30px;
+}
+.section .card{
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px gray;
+    background-color: #F0FFF0 ;
+    border: none;   
+}
+.section .card:hover{
+    transform: scale(1.05   );
+    background-color: white;
+}
+.section .card h5{
+    font-weight: bold;
+}
+.card-footer img{
+    height: 20px;
+    width: 20px;
+}
+.courses .card{
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.courses .card .card-img-top{
+    padding: 5px;
+}
+.testimonial-image{
+    height: 200x;
+    width: 200px;
+}
+
+/* footer */
+.btn{
+    display: inline-block;
+    width: 6%;
+    height: 6%;
+    background-color: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: black;
+    overflow: hidden;
+    position: relative;
+
+}
+.btn i{
+    line-height: 60px;
+    font-size: 26px;
+    transition:  .2s linear;
+}
+.btn:hover{
+    transform: scale(1.15);
+    color:rgb(119, 115, 115);
+}
+.footer{
+    background-color: #282531;
+    color: white;
+    background-position: cover;
+    width: 100%;
+}
+.footer p{
+    margin-left: 100px;
+}
+.footer li{
+    list-style: none;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+footer{
+    background-color: #282531;
+    color: white;
+}
+.signin{
+    box-shadow: 3px 3px 5px gray;
+    width:400px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #F0FFF0;
+    padding: 30px 5px;
+  
+}
